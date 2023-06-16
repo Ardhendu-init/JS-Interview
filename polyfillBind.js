@@ -47,3 +47,16 @@ Function.prototype.myBind3 = function (...args) {
 };
 let printFullname4 = fullname.myBind3(name1, "Ind");
 printFullname4("West Bengal");
+
+// 4th stage
+
+Function.prototype.myBind = function (scope, ...args) {
+  scope._this = this;
+  return function (...args2) {
+    const params = [...args, ...args2];
+    scope._this(...params);
+  };
+};
+let printFullname5 = fullname.myBind(name1, "Ind");
+// console.log(printFullname5);
+printFullname5("West Bengal");
