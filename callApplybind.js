@@ -24,7 +24,7 @@ const fullName = function (country, state) {
   );
 };
 
-fullName.call(player, "England"); // ist argument is pointed to the this object and 2nd argument is the country.
+fullName.call(player, "England", "Manchestar"); // ist argument is pointed to the this object and 2nd argument is the country.
 
 fullName.apply(player2, ["Australia", "Sydeny"]); //in apply method we pass the second argument in array.
 

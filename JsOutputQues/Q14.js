@@ -15,7 +15,7 @@ let arr3 = [1, 2, 3, 4, 5];
 let index = 2; // Index to add elements
 let newElements = ["a", "b", "c"]; // Elements to add
 
-arr3.splice(index, 0, ...newElements);
+arr3.splice(index, 0, ...newElements); // 0 here represent numbers of elements to be deleted from given index
 
 console.log(arr3);
 

@@ -16,7 +16,7 @@ print();
 //   return a + b;
 // }
 
-// 2.this binding: Arrow functions do not have their own this value. Instead, they inherit the this value from the enclosing lexical scope. In contrast, regular functions have their own this value, which is determined by how they are called.
+// 2.this binding: Arrow functions do not have their own "this" value. Instead, they inherit the "this" value from the enclosing lexical scope. In contrast, regular functions have their own "this" value, which is determined by how they are called.
 // example:-
 // Arrow Function
 // const person = {
