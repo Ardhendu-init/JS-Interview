@@ -19,3 +19,5 @@ Array.prototype.mySquare = function () {
 //   console.log(a);
 // }, 0);
 // a = 100;
+
+console.log(namam["firstName"]);
