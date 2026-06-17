@@ -57,8 +57,8 @@ Prototype is JavaScript's way of sharing methods across all instances without co
 
 Polyfill Study order
 
-1. map → filter → reduce → forEach ->find -> flat (array basics)
-2. call → apply → bind (function methods)
+1. map → filter → reduce → forEach ->find -> flat (array basics) ✅
+2. call → apply → bind (function methods) ✅
 3. debounce → throttle (most asked in interviews)
 4. Promise → Promise.all (async)
 5. memoize → deepClone (advanced)
