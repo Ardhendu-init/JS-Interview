@@ -1,4 +1,5 @@
-1.What are the different data types in JavaScript?
+### 1.What are the different data types in JavaScript?
+
 =>JavaScript has several built-in data types that allow you to store and manipulate different kinds of values. The main data types in JavaScript are as follows:
 
 1. **Primitive Types:**
@@ -20,7 +21,6 @@ These data types are dynamic, meaning the same variable can hold different types
 
 It's worth mentioning that JavaScript is a loosely typed language, which means you don't need to explicitly declare the data type of a variable. JavaScript automatically determines the data type based on the value assigned to it.
 
-
 2.Explain the concept of hoisting in JavaScript.
 => Watch Namaste JS .
 
@@ -28,13 +28,13 @@ It's worth mentioning that JavaScript is a loosely typed language, which means y
 =>In JavaScript, `null` and `undefined` are both special values that represent the absence or lack of a meaningful value. However, they are used in slightly different contexts and have different underlying meanings:
 
 1. **undefined:**
-   - When a variable is declared but has not been assigned a value, it is automatically assigned the value `undefined` by JavaScript. 
+   - When a variable is declared but has not been assigned a value, it is automatically assigned the value `undefined` by JavaScript.
    - It can also be explicitly assigned to a variable or returned from a function to indicate the absence of a value.
    - It is considered a primitive value in JavaScript.
    - Example:
      ```javascript
      let variable;
-     console.log(variable);  // undefined
+     console.log(variable); // undefined
      ```
 
 2. **null:**
@@ -45,7 +45,7 @@ It's worth mentioning that JavaScript is a loosely typed language, which means y
    - Example:
      ```javascript
      let variable = null;
-     console.log(variable);  // null
+     console.log(variable); // null
      ```
 
 In summary, `undefined` typically indicates an uninitialized or undeclared variable, while `null` is used to explicitly assign the absence of an object value. Both `undefined` and `null` are falsy values in JavaScript, meaning they are considered false when evaluated in a Boolean context. However, they are not interchangeable, and their usage depends on the specific scenario and intended meaning in your code.
@@ -71,7 +71,8 @@ In summary, `undefined` typically indicates an uninitialized or undeclared varia
 ➡️ Explain the concept of debouncing and throttling in JavaScript.
 ➡️ What are the different ways to manipulate the DOM in JavaScript?
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
 Q. What is the return type of callback in map ?
 Ans:-The return type of the callback function in the `map` method is important because it determines the content of the resulting new array that `map` produces. The callback function provided to `map` should return the value that will be used as the corresponding element in the new array.
 
@@ -112,8 +113,8 @@ const lengths = fruits.map((fruit) => fruit.length);
 // Output: [5, 6, 6]
 ```
 
-As you can see, the return type of the callback function in `map` can be diverse and flexible, allowing you to create the desired output in the resulting new array.
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+## As you can see, the return type of the callback function in `map` can be diverse and flexible, allowing you to create the desired output in the resulting new array.
+
 Q. What is the return type of call back in forEach ?
 Ans :- In contrast to the `map` method, the `forEach` method does not produce a new array. Instead, it is used to iterate over the elements of an array and perform some action or side effect on each element. Therefore, the return type of the callback function provided to `forEach` is not as significant because it does not affect the resulting array.
 
@@ -155,5 +156,4 @@ numbers.forEach((num) => num * 2);
 // The callback multiplies each element by 2, but it doesn't have any side effects, so the return value is still ignored.
 ```
 
-As you can see, the `forEach` method is not intended for creating a new transformed array like `map`. It is primarily used for iterating over elements and performing actions or side effects on each element. If you need to create a new array with transformed elements, `map` is the appropriate method to use.
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+## As you can see, the `forEach` method is not intended for creating a new transformed array like `map`. It is primarily used for iterating over elements and performing actions or side effects on each element. If you need to create a new array with transformed elements, `map` is the appropriate method to use.

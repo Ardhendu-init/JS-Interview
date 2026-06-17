@@ -1,0 +1,9 @@
+{
+  "editor.inlineSuggest.enabled": false,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.hover.enabled": "on",
+  "github.copilot.enable": {
+    "*": false
+  }
+}

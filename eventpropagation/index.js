@@ -20,12 +20,12 @@ middle.addEventListener(
   () => {
     console.log("Middle div clicked");
   },
-  true // add true as the 3rd parameter it will behave as event capturing , by default 3rd parameter is false which is for event bubbling
+  // true, // add true as the 3rd parameter it will behave as event capturing , by default 3rd parameter is false which is for event bubbling
 );
 
 inner.addEventListener("click", (event) => {
   console.log("Inner button clicked");
-  //   event.stopPropagation(); //To stop event bubbling and prevent the event from propagating further
+  // event.stopPropagation(); //To stop event bubbling and prevent the event from propagating further
 });
 //Event bubbling is a concept in web development that refers to the order in which events are propagated or "bubbled" through the DOM (Document Object Model) hierarchy. When an event occurs on a particular element, like a button click, the event doesn't just affect that element but also its parent elements all the way up to the root of the document. This process of propagating the event upwards through the DOM is called event bubbling.
 
